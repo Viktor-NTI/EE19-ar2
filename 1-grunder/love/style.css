@@ -1,0 +1,25 @@
+body {
+    background-color: gold;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    color: hotpink;
+    }
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    color: hotpink;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    color: red;
+}
+
+a {
+    color: rebeccapurple;
+}
