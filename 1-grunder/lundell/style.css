@@ -1,0 +1,21 @@
+body {
+background-image: url(./bilder/skane.jpg);
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: yellow;
+}
+p {
+
+    font-family: 'Roboto Mono', monospace;
+    color: yellow;
+    background-color: rgba(59, 3, 214, 0.863);
+    width: 500px;
+    border: 5px solid yellow;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+img {
+
+}
