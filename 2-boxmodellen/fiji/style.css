@@ -1,0 +1,32 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(./bilder/dean-mcquade-6QG53_QOtqM-unsplash.jpg);
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 200px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 600px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: #c548e4;
+    padding: 15px 50px 15px 50px;
+}
