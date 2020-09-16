@@ -1,0 +1,44 @@
+body {
+    background: #0e204d  url("./bilder/flow.png");
+    background-position: top;
+}
+table {
+    width: 600px;
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-collapse: collapse; /* Ta bort vita avstånd */
+    margin-left: auto;
+    margin-right: auto;
+}
+caption {
+    background: #12326e;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+tr:nth-child(2) {
+    background: #E73088;
+    color: #fff;
+}
+tr:nth-child(odd) {
+    background-color: #F5F5F5;
+}
+tr:nth-child(1) {
+    background: #12326e;
+    color: white;
+}
+
+}
+th {
+    padding: 10px;
+}
+td {
+    padding: 10px;
+}
+img {
+    width: 15px;
+    margin-right: 20px;
+}
