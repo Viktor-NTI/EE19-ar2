@@ -1,0 +1,37 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #444    ;
+}
+div {   
+    background-image: url(./bilder/jan-starek-R_BfrT_mCxc-unsplash.jpg);
+    background-size: 500px;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 100px auto 0 auto;
+    color: #fff;
+    box-shadow: 0px 0px 50px #fff;
+    padding-left: 10px;
+    padding-top: 170px;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-family: 'Kufam', cursive;
+}
