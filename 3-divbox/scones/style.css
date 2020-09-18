@@ -1,0 +1,49 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utseende på sidan */
+body {
+background: url(./bilder/briana-tozour-68U4oqHx5N4-unsplash.jpg);
+}
+
+/* Utseende på boxen */
+div {
+    width: 600px;
+    background: #818380;
+    margin: 40px auto;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+/* Utseende på innehållet */
+h1 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 15px;
+}
+ul {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    list-style-type: circle;
+}
+li{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
