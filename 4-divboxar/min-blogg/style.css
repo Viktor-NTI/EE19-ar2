@@ -1,0 +1,47 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layoutens utseende */
+body {
+    background-color: #000;
+}
+.kontainer {
+    width: 800px;
+    background: #DB1916;
+    margin: auto;
+    padding: 50px;
+
+}
+h1 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: #000;
+    
+}
+
+/* Inläggens utseende */
+.inlägg {
+    font-family: 'David Libre', serif;
+    background: #E81C85;
+    padding: 30px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #fff;
+}
+img {
+    width: 100%;
+}
+h2 {
+    font-family: 'Oleo Script', cursive;
+    margin-bottom: 15px;
+}
