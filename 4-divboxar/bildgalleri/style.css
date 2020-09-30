@@ -1,0 +1,59 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans utseende */
+body {
+    background: url(./bilder/2000px-Star_Wars_Logo.jpg);
+}
+/* Sidans sidhuvud */
+.kontainer {
+    width: 455px;
+    margin: auto;
+    padding: 30px;
+    background: #d90062e0;
+}
+h1 {
+    color: #FFE81F;
+    font-family: 'Staatliches', cursive;
+    font-size: 90px;
+}
+.intro {
+    color: #FFE81F;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+}
+
+/* Bildboxens utseende */
+.bild {
+    width: 400px;
+    background: #D92300;
+    margin-bottom: 15px ;
+    border-radius: 10px;
+}
+img {
+    width:  200px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+p {
+    font-family: 'Inika', serif;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Sidfotens utseende */
+.credit {
+    font-family: 'Inika', serif;
+}
