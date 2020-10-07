@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Poppins:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+/* CSS HEX */
+:root {
+    --space-cadet: #34344aff;
+    --twilight-lavender: #80475eff;
+    --cinnamon-satin: #cc5a71ff;
+    --antique-brass: #c89b7bff;
+    --laser-lemon: #f0f757ff;
+}
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -8,4 +18,81 @@ html {
 body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
+}
+
+/* Sidans utseende */
+body {
+    background: #34344aff;
+
+}
+.kontainer {
+    background: #80475eff;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Sidans rubriker */
+.kontainer h1 {
+    /* Gäller bara alla h1inuti div.kontainer */
+    font-family: 'Arima Madurai', cursive;
+    color: #34344aff;
+    font-size: 60px;
+    text-align: center;
+}
+.kontainer h2 {
+    /* Gäller bara alla h1inuti div.kontainer */
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+/* Menyns utseende */
+.kontainer ul {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.kontainer ul li {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    display: inline;
+}
+.kontainer ul a {
+    background: #c89b7bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    width: 100px;
+}
+.kontainer ul a:hover {
+    background: #34344aff;
+    box-shadow: 1px 1px 3px #000;
+}
+.kontainer ul a.aktiv {
+    background: #cc5a71ff;
+}
+
+/* Bilddernas utseende */
+.kontainer figure {
+    background: #34344aff;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 3px #000;
+}
+.kontainer figure img {
+    width: 100%;
+    padding: 10px;
+}
+.kontainer figure figcaption {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Sidans text */
+.kontainer p {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
 }
