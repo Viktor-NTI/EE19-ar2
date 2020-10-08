@@ -1,0 +1,51 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Formulärets utseende */
+body {
+    background: rgb(114,7,7);
+background: linear-gradient(90deg, rgba(114,7,7,1) 2%, rgba(175,5,86,1) 56%, rgba(255,0,181,1) 88%);
+}
+form {
+    background:#B00558;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+form label {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+form input{
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 20px;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+}
+form button{
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    background: rgb(243,0,255);
+    background: linear-gradient(94deg, rgba(243,0,255,1) 2%, rgba(175,5,86,1) 56%, rgba(255,0,181,1) 88%);
+}
+form button:hover {
+    box-shadow: 0 0 10px #fff; 
+}
+form button:active {
+    background: rgb(255,252,0);
+    background: linear-gradient(94deg, rgba(255,252,0,1) 2%, rgba(5,31,175,1) 51%, rgba(255,0,65,1) 88%);
+}
