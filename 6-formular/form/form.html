@@ -9,9 +9,36 @@
 </head>
 <body>
     <form action="">
-        <label for="fnamn">Förnamn</label> <input id="fnamn" type="text">
-        <label for="enamn">Efternamn</label> <input id="enamn" type="text">
-        <label for="epost">Mail</label> <input id="Enamn" type="email">
+        <label for="fnamn">Förnamn</label> <input id="fnamn" type="text" placeholder="tex Max">
+        <label for="enamn">Efternamn</label> <input id="enamn" type="text" placeholder="tex Svensson">
+        <label for="epost">Mail</label> <input id="Enamn" type="email" placeholder="tex kalle@gmail.com">
+
+        <label>Kön</label>
+        <div>
+            <input type="radio"name="kön">Kille
+            <input type="radio"name="kön">Tjej
+            <input type="radio"name="kön" checked>Annat
+        </div>
+
+        <label>Allergi</label>
+        <div>
+            <input type="checkbox"name="Allergi">Gluten
+            <input type="checkbox"name="Allergi">Laktos
+            <input type="checkbox"name="Allergi">Nötter
+        </div>
+
+        <label>Hemland</label>
+        <select name="hemland">
+            <option value="1">Sverige</option>
+            <option value="2">Norge</option>
+            <option value="3">Finland</option>
+            <option value="4">Ryssland</option>
+            <option value="5">Danmark</option>
+            <option value="6" selected>Annat</option>
+        </select>
+
+        <label>Kommentarer</label>
+        <textarea cols="30" rows="10"placeholder="Skriv din text här"></textarea>
         <button>Skicka</button>
     </form>
 </body>
