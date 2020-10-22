@@ -18,18 +18,32 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Sidhuvudets utseende */
 .sidhuvud {
-
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
 }
 .sidhuvud img {
 
 }
 .sidhuvud ul {
-
+    list-style-type: none; /* Tar bort punkterna */
+    margin: 30px 30px 0 0;
 }
 .sidhuvud li {
+    display: inline;
+    margin-left: 60px;
+}
+.sidhuvud li a {
+    text-decoration: none;
+    color: #682F1C;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 .sidhuvud li a:hover {
-
+    color: #B6978A;
+}
+.sidhuvud li a.aktiv {
+    color: #F7A600;
 }
 
 /* Rutornas utseened */
@@ -56,8 +70,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .rutor .burgare img {
-    width: 100%;
+
 }
 .rutor .burgare img:hover {
-    width: 101%;
+
 }
