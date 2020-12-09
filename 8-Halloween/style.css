@@ -9,3 +9,59 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
+body {
+    background-image: url(./bilder/86405.jpg);
+}
+.kontainer {
+    background: rgba(51, 51, 51, 0.849);
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Yeon Sung', cursive;
+
+
+}
+.kontainer h1 {
+    text-align: center;
+    color: rgb(255, 255, 6);
+    font-family: 'Creepster', cursive;
+    padding: 20px;
+}
+.kontainer ul {
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Creepster'    , cursive;
+
+}
+.kontainer ul li {
+    padding: 15px;
+    font-weight: bold;
+    display: inline;
+    font-size: 20px;
+}
+.kontainer ul a {
+    text-decoration: none;
+
+}
+.kontainer h2 {
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    font-size: 35px;
+    padding: 20px;
+
+}
+.kontainer img {
+    width: 100%;
+    padding: 20px;
+
+}
+.kontainer p {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.kontainer h3 {
+    text-align: center;
+    font-size: 25px;
+}
