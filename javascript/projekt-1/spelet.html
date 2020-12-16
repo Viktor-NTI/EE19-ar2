@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Interaktiv berättelse</h1>
+    </div>
+    <script>
+        var svar = prompt("Du står framför en grotta, det finns en dörr. Vill du gå in? (ja/nej)");
+        if (svar == "ja") {
+
+            svar = prompt("Du är inne i grottan. Det fonns två dörrar. En till vänster och en till höger. Vilken vill du öppna (vänster/höger)");
+
+            if (svar == "höger") {
+
+                svar = prompt("Du öppnar dörren och ser en basilisk, vill du fly eller slåss? (fly/slåss)");
+
+                if (svar == "fly") {
+                    alert("Du försöker springa iväg, men ramlar på en sten, basalisken äter sen upp dig.");
+                    alert("DU DOG! FÖRSÖK IGEN!")
+                } else {
+                    alert("Du har inget vapen. Du attackerar basilisken men den bryr sig inte, basilisken äter upp dig.");
+                    alert("DU DOG! FÖRSÖK IGEN!")
+                }
+
+            } else {
+                svar = prompt("Du öppnar dörren och går in i ett mörkt rum. Du kollar dig runt i det mörka rummet och helt plötsligt, lamporna tänds och du ser ett gyllende svärd!");
+            }
+
+        } else {
+            alert("Du går hem och lägger, du har inte gjort uppnåt någonting och långsammt ruttnar bort i din säng.");
+        }
+    </script>
+</body>
+</html>
