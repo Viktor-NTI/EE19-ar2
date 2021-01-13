@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slutbetyg</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Slutbetyg</h1>
+        <button onclick="slutbetyg()">Gissa slutbetyg</button><br>
+        <input type="text">
+    </div>
+    <script>
+        // Grabba tag i inputrutan
+        const elementInput = document.querySelector("input");
+
+        function slutbetyg() {
+            var slumptal = Math.floor(Math.random() * 6); // 0,1,2,3,4,5
+
+            // Skriv ut i input-rutan istället för alert()
+            elementInput.value = "Slumptalet = " + slumptal;
+
+            switch (slumptal) {
+                case 1:
+                    elementInput.value = "Du får slutbetyg E 😨"
+                    break;
+                case 2:
+                    elementInput.value = "Du får slutbetyg D 🙂"
+                    break;
+                case 3:
+                    elementInput.value = "Du får slutbetyg C 😄"
+                    break;
+                case 4:
+                    elementInput.value = "Du får slutbetyg B 😆"
+                    break;
+                case 5:
+                    elementInput.value = "Du får slutbetyg A 😍"
+                    break;
+
+                default:
+                    elementInput.value = "Du får slutbetyg F! 😨"
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
