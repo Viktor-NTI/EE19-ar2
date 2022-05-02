@@ -1,0 +1,37 @@
+    <!DOCTYPE html>
+    <html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Läsa från sidan</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="kontainer">
+            <h1>Läsa från sidan</h1>
+
+            <h2>Input</h2>
+            <label>Ange förnamn <input class="fnamn" type="text"></label>
+            <label>Ange efternamn <input class="enamn" type="text"></label>
+            <label>Ange ålder <input class="alder" type="text"></label>
+            <button onclick="läsa()">Skicka</button>
+        </div>
+        <script>
+            function läsa() {
+                // Hitta input rutan
+                const eInputFnamn = document.querySelector(".fnamn");
+                const eInputEnamn = document.querySelector(".enamn");
+                const eInputAlder = document.querySelector(".alder");
+                
+                // Läsa av input-rutan
+                var fnamn = eInputFnamn.value;
+                var enamn = eInputEnamn.value;
+                var alder = eInputAlder.value;
+                console.log(fnamn, enamn, alder);
+
+                alert("Hej " + fnamn + " " + enamn + ", du är " + alder + " år gammal!");
+            }
+
+        </script>
+    </body>
+    </html>
